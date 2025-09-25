@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: purple;
+    
+}
+
+/*_____________________________________________*/
+
+
+.TextBox{
+    margin: 0px 0px 50px 0px;
+}
+
+/*____________________________________________*/
+
+header{
+    display: flex;
+    justify-content: center;
+    color: gold;
+    margin: 0px 0px 100px 0px;
+}
+
+/*______________________________________________*/
+
+main h2{
+    color: gold;
+}
+
+main p{
+    color: pink;
+}
+
+#Personal_Comment{
+    font-weight: bold;
+    color: red;
+}
+
+/*_______________________________________________*/
+
+
+
+/*_______________________________*/
+#MyFavorites_BulletPoint{
+    font-size: 18;
+    color: pink;    
+}
+
+#Link_Paragraph{
+    font-size: 18;
+    list-style-type: none;
+    margin: 0px 0px 0px 50px;
+
+}
+
+#Link_Paragraph a{
+    color: turquoise;
+    font-size: 18;
+}
+
+
+
+
+/*__________________________________*/
+
+
+.MyHobby_Box{
+    border: solid black 2px;
+    width: 600px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#MyHobby_Ordered_Paragraph{
+    margin: 0px 30px 0px 30px; 
+    color: pink;
+    list-style-type: none;
+}
+
+#MyHobby_Unordered_Paragraph{
+    display: block;
+    list-style-type: disc;
+    
+    width: 250px;
+    border: solid black 2px;
+    color: orangered;
+    font-size: 18;
+}
