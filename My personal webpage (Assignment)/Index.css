@@ -5,6 +5,10 @@
     
 }
 
+body{
+    height: 2000px;
+}
+
 /*_____________________________________________*/
 
 
@@ -86,4 +90,64 @@ main p{
     border: solid black 2px;
     color: orangered;
     font-size: 18;
+}
+
+
+/*_____________________________________________*/
+
+table{
+    border: solid black 2px;
+}
+
+
+td{
+    padding: 10px;
+    border: solid black 2px;
+    text-align: center;
+}
+
+
+/*________________________________________________*/
+
+#A_Fabulous_Form_Container{
+    border: solid black 2px;
+
+    height: 400px;
+    width: 900px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px 0px 0px 50px;
+}
+
+input{
+    width: 200px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+#Message_ID{
+    height: 150px; 
+    width: 40%;
+}
+
+
+/*_________________________________________________________*/
+
+.Audio_And_Video_File_Container{
+    border: solid black 2px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+#Audio_And_Video_File_Audio{
+    margin: 0px 0px 45px 0px;
+}
+
+#Audio_And_Video_File_Video{
+    margin: 0px 0px 45px 0px;
 }
